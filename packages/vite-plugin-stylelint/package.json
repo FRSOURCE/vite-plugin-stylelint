@@ -35,7 +35,7 @@
   },
   "standard-version": {
     "scripts": {
-      "posttag": "git push --follow-tags origin main && yarn publish"
+      "posttag": "git push --follow-tags origin main && yarn npm publish"
     }
   },
   "devDependencies": {
