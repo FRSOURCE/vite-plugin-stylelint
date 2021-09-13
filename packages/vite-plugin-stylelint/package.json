@@ -14,7 +14,7 @@
     "release": "standard-version"
   },
   "license": "MIT",
-  "homepage": "https://github.com/FRSOURCE/vite-plugin-stylelint",
+  "homepage": "https://github.com/FRSOURCE/vite-plugin-stylelint/tree/main/packages/vite-plugin-stylelint",
   "repository": "git+https://github.com/FRSOURCE/vite-plugin-stylelint.git",
   "bugs": {
     "url": "https://github.com/FRSource/vite-plugin-stylelint/issues"
