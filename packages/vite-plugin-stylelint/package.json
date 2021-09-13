@@ -1,0 +1,58 @@
+{
+  "name": "@frsource/vite-plugin-stylelint",
+  "version": "0.0.1",
+  "description": "Stylelint plugin for vite.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "yarn build -- --watch src",
+    "plugin:lint": "yarn lint",
+    "lint": "eslint src",
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "prepublishOnly": "yarn build",
+    "release": "standard-version"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FRSOURCE/vite-plugin-stylelint",
+  "repository": "git+https://github.com/FRSOURCE/vite-plugin-stylelint.git",
+  "bugs": {
+    "url": "https://github.com/FRSource/vite-plugin-stylelint/issues"
+  },
+  "author": "Jakub Freisler <jakub.freisler@frsource.org>",
+  "keywords": [
+    "stylelint",
+    "vite",
+    "vite-plugin",
+    "vite-plugin-stylelint",
+    "@frsource/vite-plugin-stylelint"
+  ],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "standard-version": {
+    "scripts": {
+      "posttag": "git push --follow-tags origin main && yarn publish"
+    }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "stylelint": "^13.0.0",
+    "tsup": "^4.14.0",
+    "vite": "^2.5.6"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.0.0",
+    "vite": "^2.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.0"
+  }
+}

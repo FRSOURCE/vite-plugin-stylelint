@@ -1,0 +1,58 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "example/*"
+  ],
+  "name": "@frsource/vite-plugin-stylelint-root",
+  "description": "Stylelint plugin for vite.",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "yarn plugin:lint"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FRSOURCE/vite-plugin-stylelint",
+  "repository": "git+https://github.com/FRSOURCE/vite-plugin-stylelint.git",
+  "bugs": {
+    "url": "https://github.com/FRSource/vite-plugin-stylelint/issues"
+  },
+  "author": "Jakub Freisler <jakub.freisler@frsource.org>",
+  "keywords": [
+    "stylelint",
+    "vite",
+    "vite-plugin",
+    "vite-plugin-stylelint",
+    "@frsource/vite-plugin-stylelint"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "posttag": "git push --follow-tags origin main && npm publish"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@rollup/pluginutils": "^4.1.1",
+    "@types/node": "^16.9.1",
+    "@types/stylelint": "^13.13.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.2",
+    "rollup": "^2.56.3",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "packageManager": "yarn@3.0.2"
+}
