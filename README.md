@@ -24,6 +24,18 @@ export default defineConfig({
 });
 ```
 
+> If you need to use stylelintPlugin in a Vue project, make sure the vue compilation plugin is specified **before** stylelintPlugin. See the example:
+>
+>```js
+>import { defineConfig } from 'vite';
+>import vue from '@vitejs/plugin-vue';
+>import stylelintPlugin from '@frsource/vite-plugin-stylelint';
+> 
+>export default defineConfig({
+>  plugins: [vue(), stylelintPlugin({ /** Options */ })],
+>});
+>```
+
 ## Options
 
 Apart from the standard [Stylelint options](https://stylelint.io/user-guide/usage/options) this plugin can be configured using the ones below:
