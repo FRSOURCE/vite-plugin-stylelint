@@ -22,7 +22,7 @@ export default function stylelintPlugin(options: Options = {}): Plugin {
     cacheLocation: path.resolve(
       process.cwd(),
       // maybe vite config cacheDir is better ?
-      "./node_modules/.vite/@frsource-vite_plugin-stylelint"
+      "./node_modules/.vite/@frsource_vite-plugin-stylelint.json"
     ),
     throwOnWarning: true,
     throwOnError: true,
