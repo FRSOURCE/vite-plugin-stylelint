@@ -12,7 +12,10 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/FRSOURCE/vite-plugin-stylelint",
-  "repository": "git+https://github.com/FRSOURCE/vite-plugin-stylelint.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRSOURCE/vite-plugin-stylelint.git"
+  },
   "bugs": {
     "url": "https://github.com/FRSource/vite-plugin-stylelint/issues"
   },
