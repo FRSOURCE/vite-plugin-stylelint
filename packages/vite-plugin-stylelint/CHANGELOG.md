@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/FRSOURCE/vite-plugin-stylelint/compare/v0.0.5...v0.0.6) (2021-09-14)
+
+
+### Bug Fixes
+
+* cache location name ([ac45cc3](https://github.com/FRSOURCE/vite-plugin-stylelint/commit/ac45cc38da91c476cf40f064b7d8dc1a7b9b30ff))
+
 ### [0.0.5](https://github.com/FRSOURCE/vite-plugin-stylelint/compare/v0.0.4...v0.0.5) (2021-09-14)
 
 
