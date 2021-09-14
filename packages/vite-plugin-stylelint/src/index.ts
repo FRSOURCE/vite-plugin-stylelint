@@ -3,7 +3,7 @@ import type { Plugin } from "vite";
 import { lint } from "stylelint";
 import { createFilter } from "@rollup/pluginutils";
 
-import { checkVueStyleFile, normalizePath, Options } from "./utils";
+import { normalizePath, Options } from "./utils";
 
 export default function stylelintPlugin(options: Options = {}): Plugin {
   const defaultOptions: Options = {
@@ -15,6 +15,7 @@ export default function stylelintPlugin(options: Options = {}): Plugin {
       "**/*.scss",
       "**/*.sass",
       "**/*.vue",
+      "**/*.vue?*type=style*",
     ],
     exclude: "node_modules",
     formatter: "string",
@@ -34,7 +35,7 @@ export default function stylelintPlugin(options: Options = {}): Plugin {
   return {
     name: "vite:stylelint",
     async transform(_, id) {
-      if (!filter(id) || checkVueStyleFile(id)) return null;
+      if (!filter(id)) return null;
 
       const report = await lint({
         ...opts,

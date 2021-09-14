@@ -20,12 +20,3 @@ export interface Options extends Partial<LinterOptions> {
 export function normalizePath(id: string): string {
   return id.split("?", 2)[0];
 }
-
-export function checkVueStyleFile(id: string): boolean {
-  if (!id.includes("?")) return false;
-
-  const rawQuery = id.split("?", 2)[1];
-  const searchParams = new URLSearchParams(rawQuery);
-
-  return searchParams.has("vue") && searchParams.get("type") !== "style";
-}
