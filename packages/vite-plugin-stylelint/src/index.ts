@@ -34,7 +34,7 @@ export default function stylelintPlugin(options: Options = {}): Plugin {
   return {
     name: "vite:stylelint",
     async transform(_, id) {
-      if (!filter(id) || checkVueStyleFile(id)) return;
+      if (!filter(id) || checkVueStyleFile(id)) return null;
 
       const report = await lint({
         ...opts,
