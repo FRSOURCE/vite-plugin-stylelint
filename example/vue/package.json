@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@frsource/vite-plugin-stylelint": "workspace:*",
-    "@vitejs/plugin-vue": "^1.8.1",
+    "@vitejs/plugin-vue": "^1.9.3",
     "@vue/compiler-sfc": "^3.2.12",
     "stylelint": "^13.13.0",
     "stylelint-config-standard": "^22.0.0",
