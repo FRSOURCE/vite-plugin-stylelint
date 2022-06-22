@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     extends: [
-      'stylelint-config-standard',
+      'stylelint-config-standard-vue',
     ],
     rules: {
       'no-empty-source': null,
