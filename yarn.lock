@@ -316,7 +316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^13.1.0":
+"@commitlint/cli@npm:13.1.0":
   version: 13.1.0
   resolution: "@commitlint/cli@npm:13.1.0"
   dependencies:
@@ -335,7 +335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^13.1.0":
+"@commitlint/config-conventional@npm:13.1.0":
   version: 13.1.0
   resolution: "@commitlint/config-conventional@npm:13.1.0"
   dependencies:
@@ -519,16 +519,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frsource/vite-plugin-stylelint-root@workspace:."
   dependencies:
-    "@commitlint/cli": ^13.1.0
-    "@commitlint/config-conventional": ^13.1.0
-    "@rollup/pluginutils": ^4.1.1
-    "@types/node": ^16.9.1
-    "@types/stylelint": ^13.13.2
-    cz-conventional-changelog: ^3.3.0
-    husky: ^7.0.2
-    rollup: ^2.56.3
-    standard-version: ^9.3.1
-    typescript: ^4.4.3
+    "@commitlint/cli": 13.1.0
+    "@commitlint/config-conventional": 13.1.0
+    "@rollup/pluginutils": 4.2.1
+    "@types/node": 16.9.1
+    "@types/stylelint": 13.13.2
+    cz-conventional-changelog: 3.3.0
+    husky: 7.0.2
+    rollup: 2.75.7
+    standard-version: 9.3.1
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -536,15 +536,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frsource/vite-plugin-stylelint@workspace:packages/vite-plugin-stylelint"
   dependencies:
-    "@typescript-eslint/eslint-plugin": ^4.31.1
-    "@typescript-eslint/parser": ^4.31.0
-    eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    prettier: ^2.4.0
-    stylelint: ^14.9.1
-    tsup: ^4.14.0
-    vite: ^2.9.12
+    "@typescript-eslint/eslint-plugin": 4.33.0
+    "@typescript-eslint/parser": 4.31.0
+    eslint: 7.32.0
+    eslint-config-prettier: 8.3.0
+    eslint-plugin-prettier: 4.0.0
+    prettier: 2.4.0
+    stylelint: 14.9.1
+    tsup: 4.14.0
+    vite: 2.9.12
   peerDependencies:
     stylelint: ^14.0.0
     vite: ^2.0.0
@@ -682,7 +682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.2.1":
+"@rollup/pluginutils@npm:4.2.1, @rollup/pluginutils@npm:^4.2.1":
   version: 4.2.1
   resolution: "@rollup/pluginutils@npm:4.2.1"
   dependencies:
@@ -713,7 +713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.9.1":
+"@types/node@npm:16.9.1":
   version: 16.9.1
   resolution: "@types/node@npm:16.9.1"
   checksum: 41afcf183a22d59323a0199dd7e0f46591247f45fc08a4434edb26d56dc279ae4fdb80f37989ddd7a0f45e3857c4933e6e82057ede09c5a829f77e373e680375
@@ -741,7 +741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.5":
+"@types/react-dom@npm:18.0.5":
   version: 18.0.5
   resolution: "@types/react-dom@npm:18.0.5"
   dependencies:
@@ -750,7 +750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.14":
+"@types/react@npm:*, @types/react@npm:18.0.14":
   version: 18.0.14
   resolution: "@types/react@npm:18.0.14"
   dependencies:
@@ -768,7 +768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/stylelint@npm:^13.13.2":
+"@types/stylelint@npm:13.13.2":
   version: 13.13.2
   resolution: "@types/stylelint@npm:13.13.2"
   dependencies:
@@ -778,7 +778,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^4.31.1":
+"@typescript-eslint/eslint-plugin@npm:4.33.0":
   version: 4.33.0
   resolution: "@typescript-eslint/eslint-plugin@npm:4.33.0"
   dependencies:
@@ -816,7 +816,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.31.0":
+"@typescript-eslint/parser@npm:4.31.0":
   version: 4.31.0
   resolution: "@typescript-eslint/parser@npm:4.31.0"
   dependencies:
@@ -923,7 +923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^1.3.2":
+"@vitejs/plugin-react@npm:1.3.2":
   version: 1.3.2
   resolution: "@vitejs/plugin-react@npm:1.3.2"
   dependencies:
@@ -939,7 +939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^2.3.3":
+"@vitejs/plugin-vue@npm:2.3.3":
   version: 2.3.3
   resolution: "@vitejs/plugin-vue@npm:2.3.3"
   peerDependencies:
@@ -1986,7 +1986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.3.0":
+"cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
   dependencies:
@@ -2488,7 +2488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.3.0":
   version: 8.3.0
   resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
@@ -2499,7 +2499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -2558,7 +2558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.32.0":
+"eslint@npm:7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -2680,15 +2680,15 @@ __metadata:
   resolution: "example-react@workspace:example/react"
   dependencies:
     "@frsource/vite-plugin-stylelint": "workspace:*"
-    "@types/react": ^18.0.14
-    "@types/react-dom": ^18.0.5
-    "@vitejs/plugin-react": ^1.3.2
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    stylelint: ^14.9.1
-    stylelint-config-standard: ^26.0.0
-    typescript: ^4.7.4
-    vite: ^2.9.12
+    "@types/react": 18.0.14
+    "@types/react-dom": 18.0.5
+    "@vitejs/plugin-react": 1.3.2
+    react: 18.2.0
+    react-dom: 18.2.0
+    stylelint: 14.9.1
+    stylelint-config-standard: 26.0.0
+    typescript: 4.7.4
+    vite: 2.9.12
   languageName: unknown
   linkType: soft
 
@@ -2697,14 +2697,14 @@ __metadata:
   resolution: "example-vue@workspace:example/vue"
   dependencies:
     "@frsource/vite-plugin-stylelint": "workspace:*"
-    "@vitejs/plugin-vue": ^2.3.3
-    postcss-html: ^1.4.1
-    stylelint: ^14.9.1
-    stylelint-config-standard-vue: ^1.0.0
-    typescript: ^4.7.4
-    vite: ^2.9.12
-    vue: ^3.2.37
-    vue-tsc: ^0.38.1
+    "@vitejs/plugin-vue": 2.3.3
+    postcss-html: 1.4.1
+    stylelint: 14.9.1
+    stylelint-config-standard-vue: 1.0.0
+    typescript: 4.7.4
+    vite: 2.9.12
+    vue: 3.2.37
+    vue-tsc: 0.38.1
   languageName: unknown
   linkType: soft
 
@@ -3405,7 +3405,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.2":
+"husky@npm:7.0.2":
   version: 7.0.2
   resolution: "husky@npm:7.0.2"
   bin:
@@ -4662,7 +4662,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:^1.4.1":
+"postcss-html@npm:1.4.1":
   version: 1.4.1
   resolution: "postcss-html@npm:1.4.1"
   dependencies:
@@ -4767,7 +4767,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.4.0":
+"prettier@npm:2.4.0":
   version: 2.4.0
   resolution: "prettier@npm:2.4.0"
   bin:
@@ -4835,7 +4835,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.2.0":
+"react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -4854,7 +4854,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react@npm:^18.2.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -5067,7 +5067,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.56.1, rollup@npm:^2.56.3, rollup@npm:^2.59.0":
+"rollup@npm:2.75.7, rollup@npm:^2.56.1, rollup@npm:^2.59.0":
   version: 2.75.7
   resolution: "rollup@npm:2.75.7"
   dependencies:
@@ -5330,7 +5330,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"standard-version@npm:^9.3.1":
+"standard-version@npm:9.3.1":
   version: 9.3.1
   resolution: "standard-version@npm:9.3.1"
   dependencies:
@@ -5532,7 +5532,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard-vue@npm:^1.0.0":
+"stylelint-config-standard-vue@npm:1.0.0":
   version: 1.0.0
   resolution: "stylelint-config-standard-vue@npm:1.0.0"
   dependencies:
@@ -5546,7 +5546,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:>=24.0.0, stylelint-config-standard@npm:^26.0.0":
+"stylelint-config-standard@npm:26.0.0, stylelint-config-standard@npm:>=24.0.0":
   version: 26.0.0
   resolution: "stylelint-config-standard@npm:26.0.0"
   dependencies:
@@ -5557,7 +5557,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.9.1":
+"stylelint@npm:14.9.1":
   version: 14.9.1
   resolution: "stylelint@npm:14.9.1"
   dependencies:
@@ -5815,7 +5815,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"tsup@npm:^4.14.0":
+"tsup@npm:4.14.0":
   version: 4.14.0
   resolution: "tsup@npm:4.14.0"
   dependencies:
@@ -5899,7 +5899,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"typescript@^4.4.3, typescript@^4.7.4":
+typescript@4.7.4:
   version: 4.7.4
   resolution: "typescript@npm:4.7.4"
   bin:
@@ -5909,7 +5909,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
   resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=32657b"
   bin:
@@ -6007,7 +6007,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.12":
+"vite@npm:2.9.12":
   version: 2.9.12
   resolution: "vite@npm:2.9.12"
   dependencies:
@@ -6036,7 +6036,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"vue-tsc@npm:^0.38.1":
+"vue-tsc@npm:0.38.1":
   version: 0.38.1
   resolution: "vue-tsc@npm:0.38.1"
   dependencies:
@@ -6049,7 +6049,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"vue@npm:3.2.37, vue@npm:^3.2.37":
+"vue@npm:3.2.37":
   version: 3.2.37
   resolution: "vue@npm:3.2.37"
   dependencies:
