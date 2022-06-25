@@ -603,7 +603,7 @@ __metadata:
     eslint-plugin-prettier: 4.0.0
     prettier: 2.7.1
     stylelint: 14.9.1
-    tsup: 4.14.0
+    tsup: 6.1.2
     vite: 2.9.12
   peerDependencies:
     stylelint: ^14.0.0
@@ -1470,10 +1470,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cac@npm:^6.7.2":
-  version: 6.7.3
-  resolution: "cac@npm:6.7.3"
-  checksum: 5fa95deb98467e41a5c1d84614077bc9c6dcb25caf5bdbfcbbc0a27bf9a4ba7b9505e2b22be7c755c99d70da5c4c3dbe1d2e9cc4c9035e1b752f103488f2802b
+"bundle-require@npm:^3.0.2":
+  version: 3.0.4
+  resolution: "bundle-require@npm:3.0.4"
+  dependencies:
+    load-tsconfig: ^0.2.0
+  peerDependencies:
+    esbuild: ">=0.13"
+  checksum: 572ade4e799fa74a56fecc02b8d997f7cf652c9b87bf1cbe7aa98a72d536792a84f262d209d9552c8feabf57376fd2b7ff82e765ed024a15d6c1c086b553bd89
+  languageName: node
+  linkType: hard
+
+"cac@npm:^6.7.12":
+  version: 6.7.12
+  resolution: "cac@npm:6.7.12"
+  checksum: c0d4129eb30fc43449e9078ac37bb3b837aab6261236a6642a6fb9d839bb6a41e191e1f2776f87569535db07dcbf4937680419126215b4c17c9dba4351d1bd5e
   languageName: node
   linkType: hard
 
@@ -2530,16 +2541,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.12.9":
-  version: 0.12.26
-  resolution: "esbuild@npm:0.12.26"
-  bin:
-    esbuild: bin/esbuild
-  checksum: 73efbf4e6457cdec8fbf68ce7dda8fe88475775de36c1d7f5dce4b151651afbbe09ad94fee16810f2aa064e39447b44b30219eb7d168703bd30117cbcbf72cdf
-  languageName: node
-  linkType: hard
-
-"esbuild@npm:^0.14.27":
+"esbuild@npm:^0.14.25, esbuild@npm:^0.14.27":
   version: 0.14.47
   resolution: "esbuild@npm:0.14.47"
   dependencies:
@@ -4003,6 +4005,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"load-tsconfig@npm:^0.2.0":
+  version: 0.2.3
+  resolution: "load-tsconfig@npm:0.2.3"
+  checksum: e28d1b2725fda76ee69fa4ee21b1257fd5b77b12e1be09cdc0b67f953e62ffbc3e7ac1a6267ec21309f95310cd10635e28a3cb38d04be3f7d683c4fe7914d7a9
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^2.0.0":
   version: 2.0.0
   resolution: "locate-path@npm:2.0.0"
@@ -4059,6 +4068,13 @@ fsevents@~2.3.2:
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: ad580b4bdbb7ca1f7abf7e1bce63a9a0b98e370cf40194b03380a46b4ed799c9573029599caebc1b14e3f24b111aef72b96674a56cfa105e0f5ac70546cdc005
+  languageName: node
+  linkType: hard
+
+"lodash.sortby@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "lodash.sortby@npm:4.7.0"
+  checksum: db170c9396d29d11fe9a9f25668c4993e0c1331bcb941ddbd48fb76f492e732add7f2a47cfdf8e9d740fa59ac41bbfaf931d268bc72aab3ab49e9f89354d718c
   languageName: node
   linkType: hard
 
@@ -5200,7 +5216,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.75.7, rollup@npm:^2.56.1, rollup@npm:^2.59.0":
+"rollup@npm:2.75.7, rollup@npm:^2.59.0, rollup@npm:^2.74.1":
   version: 2.75.7
   resolution: "rollup@npm:2.75.7"
   dependencies:
@@ -5389,6 +5405,15 @@ fsevents@~2.3.2:
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
+  languageName: node
+  linkType: hard
+
+"source-map@npm:0.8.0-beta.0":
+  version: 0.8.0-beta.0
+  resolution: "source-map@npm:0.8.0-beta.0"
+  dependencies:
+    whatwg-url: ^7.0.0
+  checksum: e94169be6461ab0ac0913313ad1719a14c60d402bd22b0ad96f4a6cffd79130d91ab5df0a5336a326b04d2df131c1409f563c9dc0d21a6ca6239a44b6c8dbd92
   languageName: node
   linkType: hard
 
@@ -5743,9 +5768,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"sucrase@npm:^3.18.1":
-  version: 3.20.1
-  resolution: "sucrase@npm:3.20.1"
+"sucrase@npm:^3.20.3":
+  version: 3.21.1
+  resolution: "sucrase@npm:3.21.1"
   dependencies:
     commander: ^4.0.0
     glob: 7.1.6
@@ -5756,7 +5781,7 @@ fsevents@~2.3.2:
   bin:
     sucrase: bin/sucrase
     sucrase-node: bin/sucrase-node
-  checksum: 1fdad92303739f6b168b387dd0a5ff1c9a81ddbf4dbff0753f70a92fc1ccdb8ab69121dc549e6e1b833eded23614227efb8ea54db43a94d38d83f9b1506b25d3
+  checksum: 2348caba9174fa6c13e7c320de8f2040bd8d9e1c7816ba54206e2455fec2f76ffcff0919ae44099e236ada0580b3daf171093388d35e1bf7e67abc2884aee736
   languageName: node
   linkType: hard
 
@@ -5921,6 +5946,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"tr46@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "tr46@npm:1.0.1"
+  dependencies:
+    punycode: ^2.1.0
+  checksum: 96d4ed46bc161db75dbf9247a236ea0bfcaf5758baae6749e92afab0bc5a09cb59af21788ede7e55080f2bf02dce3e4a8f2a484cc45164e29f4b5e68f7cbcc1a
+  languageName: node
+  linkType: hard
+
 "tree-kill@npm:^1.2.2":
   version: 1.2.2
   resolution: "tree-kill@npm:1.2.2"
@@ -5989,32 +6023,39 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"tsup@npm:4.14.0":
-  version: 4.14.0
-  resolution: "tsup@npm:4.14.0"
+"tsup@npm:6.1.2":
+  version: 6.1.2
+  resolution: "tsup@npm:6.1.2"
   dependencies:
-    cac: ^6.7.2
-    chalk: ^4.1.0
+    bundle-require: ^3.0.2
+    cac: ^6.7.12
     chokidar: ^3.5.1
     debug: ^4.3.1
-    esbuild: ^0.12.9
+    esbuild: ^0.14.25
     execa: ^5.0.0
     globby: ^11.0.3
     joycon: ^3.0.1
     postcss-load-config: ^3.0.1
     resolve-from: ^5.0.0
-    rollup: ^2.56.1
-    sucrase: ^3.18.1
+    rollup: ^2.74.1
+    source-map: 0.8.0-beta.0
+    sucrase: ^3.20.3
     tree-kill: ^1.2.2
   peerDependencies:
-    typescript: ^4.2.3
+    "@swc/core": ^1
+    postcss: ^8.4.12
+    typescript: ^4.1.0
   peerDependenciesMeta:
+    "@swc/core":
+      optional: true
+    postcss:
+      optional: true
     typescript:
       optional: true
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: ae46692b116bb0e92bf0816975855a788b686df28fc548c4ba32635551ba08f6bb8b8e3e039b3b93604c415d7ebcbb0fbb885e6787ec4e9671c22de8c27b1783
+  checksum: 258cd2d25ce52b8eb1cabfc2355867e1978e419b19bcd16366b70fe717b12e7fb2d78a9101788aca365e3a33f1d9cfbf766afd6c58aa355bb3fae5b641f5d87b
   languageName: node
   linkType: hard
 
@@ -6240,6 +6281,24 @@ fsevents@~2.3.2:
     "@vue/server-renderer": 3.2.37
     "@vue/shared": 3.2.37
   checksum: cd20069c311e1de54b7d9b5d9c6021f1a6a70b0cf05cf7fc36b59c02623cbdc7c0075fb2c9e17859c77c86b15c596a447ee16c70064e9f2feba2df27139260b9
+  languageName: node
+  linkType: hard
+
+"webidl-conversions@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "webidl-conversions@npm:4.0.2"
+  checksum: c93d8dfe908a0140a4ae9c0ebc87a33805b416a33ee638a605b551523eec94a9632165e54632f6d57a39c5f948c4bab10e0e066525e9a4b87a79f0d04fbca374
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^7.0.0":
+  version: 7.1.0
+  resolution: "whatwg-url@npm:7.1.0"
+  dependencies:
+    lodash.sortby: ^4.7.0
+    tr46: ^1.0.1
+    webidl-conversions: ^4.0.2
+  checksum: fecb07c87290b47d2ec2fb6d6ca26daad3c9e211e0e531dd7566e7ff95b5b3525a57d4f32640ad4adf057717e0c215731db842ad761e61d947e81010e05cf5fd
   languageName: node
   linkType: hard
 
