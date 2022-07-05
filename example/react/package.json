@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@frsource/vite-plugin-stylelint": "workspace:*",
-    "@types/react": "18.0.14",
+    "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "1.3.2",
     "stylelint": "14.9.1",
