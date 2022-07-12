@@ -604,7 +604,7 @@ __metadata:
     prettier: 2.7.1
     stylelint: 14.9.1
     tsup: 6.1.2
-    vite: 2.9.13
+    vite: 2.9.14
   peerDependencies:
     stylelint: ^14.0.0
     vite: ^2.0.0
@@ -2829,7 +2829,7 @@ __metadata:
     stylelint: 14.9.1
     stylelint-config-standard: 26.0.0
     typescript: 4.7.4
-    vite: 2.9.13
+    vite: 2.9.14
   languageName: unknown
   linkType: soft
 
@@ -2843,7 +2843,7 @@ __metadata:
     stylelint: 14.9.1
     stylelint-config-standard-vue: 1.0.0
     typescript: 4.7.4
-    vite: 2.9.13
+    vite: 2.9.14
     vue: 3.2.37
     vue-tsc: 0.38.2
   languageName: unknown
@@ -6261,9 +6261,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.13":
-  version: 2.9.13
-  resolution: "vite@npm:2.9.13"
+"vite@npm:2.9.14":
+  version: 2.9.14
+  resolution: "vite@npm:2.9.14"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -6286,7 +6286,7 @@ fsevents@~2.3.2:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: a5e501b920a448c352e9b3836019dea56c523535f8e8540160708c2e164d84da6655ae39abbba1e2888092f5c6cd03dd06279852422359b51be601914645f49f
+  checksum: f78b54f58482ea97d385e36873ae1aa4744c5e467c1d6d4e0835bd55494d2d8f6ce763f17c241c66104be687d5ee535b8e1e96c14210c9ba0c343fe78c58f694
   languageName: node
   linkType: hard
 

@@ -50,7 +50,7 @@
     "prettier": "2.7.1",
     "stylelint": "14.9.1",
     "tsup": "6.1.2",
-    "vite": "2.9.13"
+    "vite": "2.9.14"
   },
   "peerDependencies": {
     "stylelint": "^14.0.0",
