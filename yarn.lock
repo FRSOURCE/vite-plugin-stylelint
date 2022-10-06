@@ -590,7 +590,7 @@ __metadata:
     eslint-config-prettier: 8.5.0
     eslint-plugin-prettier: 4.2.1
     prettier: 2.7.1
-    stylelint: 14.11.0
+    stylelint: 14.13.0
     tsup: 6.2.3
     vite: 3.1.6
   peerDependencies:
@@ -3046,7 +3046,7 @@ __metadata:
     "@vitejs/plugin-react": 2.1.0
     react: 18.2.0
     react-dom: 18.2.0
-    stylelint: 14.11.0
+    stylelint: 14.13.0
     stylelint-config-standard: 28.0.0
     typescript: 4.8.3
     vite: 3.1.6
@@ -3060,7 +3060,7 @@ __metadata:
     "@frsource/vite-plugin-stylelint": "workspace:*"
     "@vitejs/plugin-vue": 3.1.0
     postcss-html: 1.5.0
-    stylelint: 14.11.0
+    stylelint: 14.13.0
     stylelint-config-standard-vue: 1.0.0
     typescript: 4.8.3
     vite: 3.1.6
@@ -3120,7 +3120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -5888,9 +5888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:14.11.0":
-  version: 14.11.0
-  resolution: "stylelint@npm:14.11.0"
+"stylelint@npm:14.13.0":
+  version: 14.13.0
+  resolution: "stylelint@npm:14.13.0"
   dependencies:
     "@csstools/selector-specificity": ^2.0.2
     balanced-match: ^2.0.0
@@ -5898,7 +5898,7 @@ __metadata:
     cosmiconfig: ^7.0.1
     css-functions-list: ^3.1.0
     debug: ^4.3.4
-    fast-glob: ^3.2.11
+    fast-glob: ^3.2.12
     fastest-levenshtein: ^1.0.16
     file-entry-cache: ^6.0.1
     global-modules: ^2.0.0
@@ -5925,14 +5925,14 @@ __metadata:
     string-width: ^4.2.3
     strip-ansi: ^6.0.1
     style-search: ^0.1.0
-    supports-hyperlinks: ^2.2.0
+    supports-hyperlinks: ^2.3.0
     svg-tags: ^1.0.0
     table: ^6.8.0
     v8-compile-cache: ^2.3.0
     write-file-atomic: ^4.0.2
   bin:
     stylelint: bin/stylelint.js
-  checksum: 23fe2cb55453551f004b01a732e0aff82d8d98d0ac1f4c95c1d605f0fbd0f09d9079fc8d07c9da2796d6287985167a6c59791d7b1af2c4e8a1caa08dd591b980
+  checksum: 81efcb2ea015fe490651f0976a927c51efa493a32b2b8e681d68aba8a275a1d8d0ebf8eaf50ef3233e3dc367077db63792e7e69bf6abb18940d63fd6c9f772df
   languageName: node
   linkType: hard
 
@@ -5971,7 +5971,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-hyperlinks@npm:^2.2.0":
+"supports-hyperlinks@npm:^2.3.0":
   version: 2.3.0
   resolution: "supports-hyperlinks@npm:2.3.0"
   dependencies:
