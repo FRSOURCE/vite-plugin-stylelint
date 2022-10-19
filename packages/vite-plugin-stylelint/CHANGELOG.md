@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/FRSOURCE/vite-plugin-stylelint/compare/v1.0.0...v1.0.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue to v3.2.40 ([#171](https://github.com/FRSOURCE/vite-plugin-stylelint/issues/171)) ([f680dc2](https://github.com/FRSOURCE/vite-plugin-stylelint/commit/f680dc2f76e8c419d9dbb695d54c7d77b6b56a24))
+* **deps:** update dependency vue to v3.2.41 ([#184](https://github.com/FRSOURCE/vite-plugin-stylelint/issues/184)) ([24c1342](https://github.com/FRSOURCE/vite-plugin-stylelint/commit/24c1342d6b0f9ddf0eec9ead36707054813f3c48))
+
 ## [1.0.0](https://github.com/FRSOURCE/vite-plugin-stylelint/compare/v0.0.7...v1.0.0) (2022-06-23)
 
 ### [0.0.7](https://github.com/FRSOURCE/vite-plugin-stylelint/compare/v0.0.6...v0.0.7) (2021-09-14)
