@@ -608,7 +608,7 @@ __metadata:
     "@types/stylelint": 13.13.3
     cz-conventional-changelog: 3.3.0
     husky: 8.0.1
-    rollup: 3.2.3
+    rollup: 3.5.0
     standard-version: 9.5.0
     typescript: 4.8.4
   languageName: unknown
@@ -5508,9 +5508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.2.3":
-  version: 3.2.3
-  resolution: "rollup@npm:3.2.3"
+"rollup@npm:3.5.0":
+  version: 3.5.0
+  resolution: "rollup@npm:3.5.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -5518,7 +5518,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: e4b4f3b70fad4b8f7dabc579fb8bbe14399d5aed0cc1fcee39f15ae81804d6acd0e1063b653e6cf5ef50e8e954801689e2c822e99ed31ca18f1b1fbbea8075e5
+  checksum: 57aa8e17c7a8d5b80b7a26c8acd52779369826049dbc370b929d73a6015fb69161f5aca699e8c54f7ea410d4ce5b5a45b26b07d5c99724becd555eef0ffe35be
   languageName: node
   linkType: hard
 
