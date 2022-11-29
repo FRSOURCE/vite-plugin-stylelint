@@ -1,5 +1,10 @@
 # @frsource/vite-plugin-stylelint
 
+> **Important**
+>
+> This plugin has been deprecated in favor of [`vite-plugin-checker`](https://github.com/fi3ework/vite-plugin-checker).
+> Please [refer to its' documentation](https://github.com/fi3ework/vite-plugin-checker/blob/main/docs/checkers/stylelint.md) to learn how to setup the stylelint check.
+
 [![npm](https://img.shields.io/npm/v/@frsource/vite-plugin-stylelint)](https://www.npmjs.com/package/@frsource/vite-plugin-stylelint)
 [![GitHub license](https://img.shields.io/github/license/FRSOURCE/vite-plugin-stylelint)](https://github.com/FRSOURCE/vite-plugin-stylelint/blob/master/LICENSE)
 
